@@ -1,0 +1,10 @@
+@import 'variables.scss';
+
+@media #{$ui-desktop-extra-large} {
+  .showcase {
+    &__content {
+      max-width: 1200px;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@keyframes k-light {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: .3;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
+@keyframes k-glow {
+  0% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .8;
+  }
+  100% {
+    opacity: .6;
+  }
+}
+
+@keyframes k-left-side {
+  0% {
+    transform: rotateY(-1deg) scaleX(.92);
+  }
+  100% {
+    transform: rotateY(0deg) scaleX(1);
+  }
+}
+
+@keyframes k-right-side {
+  0% {
+    transform: rotateY(0deg) scaleX(1);
+  }
+  100% {
+    transform: rotateY(1deg) scaleX(.92);
+  }
+}
